@@ -10,7 +10,7 @@ Object.is(null, undefined); // false
 10 === 20; // false
 3.14 !== 3.14; // false
 "TechUp" !== "TechUp"; // false
-NaN === NaN;
+NaN === NaN; // false
 0 !== -0; // false
 
 let objectA = { course: "Web Developer", price: 300000 };
